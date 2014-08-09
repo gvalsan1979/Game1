@@ -101,5 +101,9 @@ public class SimpleGame_HandTracking : MonoBehaviour {
         return realLength; 
     }
 
+    void OnCollisionStay2D(Collision2D collision)
+    {
+        
+    }
 
 }

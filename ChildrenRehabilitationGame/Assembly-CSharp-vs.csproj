@@ -56,6 +56,7 @@
      <Compile Include="Assets\Kinect\Scripts\InfraredSourceManager.cs" />
      <Compile Include="Assets\Kinect\Scripts\InfraredSourceView.cs" />
      <Compile Include="Assets\Kinect\Scripts\MultiSourceManager.cs" />
+     <Compile Include="Assets\Scripts\Ball.cs" />
      <Compile Include="Assets\Scripts\SimpleGame_HandTracking.cs" />
   </ItemGroup>
   <ItemGroup>
