@@ -77,7 +77,17 @@ public class SimpleGame_HandTracking : MonoBehaviour {
                 {
                     if (body.HandRightState == HandState.Closed)
                     {
-                        gameObject.renderer.material.color = Color.red;
+
+
+                        if (gameObject.renderer.material.color == Color.green)
+                        {
+                            gameObject.renderer.material.color = Color.green;
+                        }
+                        else
+                        {
+                            gameObject.renderer.material.color = Color.red;
+                        }
+                        
                     }
                     else
                     {
@@ -131,7 +141,16 @@ public class SimpleGame_HandTracking : MonoBehaviour {
 
     void OnCollisionStay2D(Collision2D collision)
     {
-        
+        if (collider.name.Equals( "Ball"))
+        {
+            if ((gameObject.renderer.material.color == Color.red) || (gameObject.renderer.material.color == Color.green))
+            {
+               // gameObject.transform.position = collider.transform.position;
+                gameObject.renderer.material.color = Color.green;
+
+            }
+
+        }
     }
 
 }

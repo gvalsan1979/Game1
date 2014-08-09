@@ -1,6 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
 public class Ball : MonoBehaviour {
 
 	// Use this for initialization
@@ -21,9 +22,11 @@ public class Ball : MonoBehaviour {
     {
         if (collider.gameObject.tag == "Player")
         {
-            if(collider.renderer.material.color == Color.red)
+            if ((collider.renderer.material.color == Color.red) || (collider.renderer.material.color == Color.green))
             {
                 gameObject.transform.position = collider.transform.position;
+                collider.transform.renderer.material.color = Color.green;
+
             }
            
         }
