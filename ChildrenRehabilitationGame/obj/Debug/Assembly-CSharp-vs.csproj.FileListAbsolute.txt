@@ -1,0 +1,12 @@
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Assembly-CSharp.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Assembly-CSharp.pdb
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\UnityEditor.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\UnityEngine.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\nunit.framework.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp.pdb

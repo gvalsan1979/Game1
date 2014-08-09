@@ -73,6 +73,8 @@ public class SimpleGame_HandTracking : MonoBehaviour {
         {
             foreach (Body body in bodies)
             {
+                Debug.Log("ID:" + body.TrackingId);
+
                 if (body.IsTracked && body.TrackingId == _BodyManager.GetMainPlayerId())
                 {
                     if (body.HandRightState == HandState.Closed)
