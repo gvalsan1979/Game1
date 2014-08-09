@@ -41,7 +41,15 @@ public class BodySourceManager : MonoBehaviour
     {
         return colorpoints;
     }
-    
+
+
+    /// <summary>
+    ///  Returns main player ID
+    /// </summary>
+    public ulong GetMainPlayerId()
+    {
+        return mainPlayerId;
+    }
 
     void Start () 
     {

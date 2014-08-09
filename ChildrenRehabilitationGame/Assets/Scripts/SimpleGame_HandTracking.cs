@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Linq;
+using UnityEngine;
 using System.Collections;
 using Windows.Kinect;
 
@@ -66,8 +67,25 @@ public class SimpleGame_HandTracking : MonoBehaviour {
 
         // Atributes that position to the game object
         transform.position = new Vector3(bufferForRightHand.x, bufferForRightHand.y, transform.position.z);
-            
-        
+
+        Body[] bodies = _BodyManager.GetData();
+        if (bodies != null)
+        {
+            foreach (Body body in bodies)
+            {
+                if (body.IsTracked && body.TrackingId == _BodyManager.GetMainPlayerId())
+                {
+                    if (body.HandRightState == HandState.Closed)
+                    {
+                        gameObject.renderer.material.color = Color.red;
+                    }
+                    else
+                    {
+                        gameObject.renderer.material.color = Color.blue;
+                    }
+                }
+            }
+        }
     }
     
 
