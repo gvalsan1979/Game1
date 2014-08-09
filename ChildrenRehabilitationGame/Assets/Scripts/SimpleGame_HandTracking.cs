@@ -91,14 +91,30 @@ public class SimpleGame_HandTracking : MonoBehaviour {
 
     private Vector2 CoordinatesTranform(ColorSpacePoint orignalPoint)
     {
-        orignalPoint.Y = -orignalPoint.Y;
+        const float newX = 18.0f, newY = 10.0f;
+        const float oldX = 1920.0f, oldY = 850.0f;
+
+        float cameraX = orignalPoint.X, cameraY = orignalPoint.Y;
+
+        //Debug.Log(string.Format("Old: ({0}, {1})", cameraX, cameraY));
+        //Debug.Log(string.Format("Old: ({0})", cameraY));
+
+        float accurateX = cameraX/oldX*newX - newX/2.0f;
+        float accurateY = -(cameraY/oldY*newY - newY/2.0f);
+
+        //Debug.Log(string.Format("New: ({0}, {1})", accurateX, accurateY));
+
+        //Debug.Log(string.Format("New: ({0})", accurateY));
+
+        return new Vector2(accurateX, accurateY);
+
+        /*orignalPoint.Y = -orignalPoint.Y;
         Vector2 originalVector = new Vector2(orignalPoint.X, orignalPoint.Y);
         Vector2 finalVector = new Vector2((30.0F / (float)1920), (25.0F / (float)1080));
         Vector2 origin = new Vector2(15F, -15F);
         finalVector = Vector2.Scale(finalVector, originalVector);
         finalVector = finalVector - origin;
-        finalVector = new Vector2(finalVector.x * 1.3f, finalVector.y * 0.8f - 0.8f); 
-        return finalVector;
+        finalVector = new Vector2(finalVector.x * 1.3f, finalVector.y * 0.8f - 0.8f);*/
     }
 
     private int GetRealDataLength(Windows.Kinect.Body[] data)
