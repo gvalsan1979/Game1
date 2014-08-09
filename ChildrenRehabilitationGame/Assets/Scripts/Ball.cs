@@ -21,7 +21,11 @@ public class Ball : MonoBehaviour {
     {
         if (collider.gameObject.tag == "Player")
         {
-            gameObject.transform.position = collider.transform.position; 
+            if(collider.renderer.material.color == Color.red)
+            {
+                gameObject.transform.position = collider.transform.position;
+            }
+           
         }
     }
 }
