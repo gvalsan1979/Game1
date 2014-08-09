@@ -93,21 +93,15 @@ public class SimpleGame_HandTracking : MonoBehaviour {
     {
         const float newX = 18.0f, newY = 10.0f;
         const float oldX = 1920.0f, oldY = 850.0f;
+        const float specialY = 1.28f;
 
         float cameraX = orignalPoint.X, cameraY = orignalPoint.Y;
 
-        //Debug.Log(string.Format("Old: ({0}, {1})", cameraX, cameraY));
-        //Debug.Log(string.Format("Old: ({0})", cameraY));
-
         float accurateX = cameraX/oldX*newX - newX/2.0f;
-        float accurateY = -(cameraY/oldY*newY - newY/2.0f);
-
-        //Debug.Log(string.Format("New: ({0}, {1})", accurateX, accurateY));
-
-        //Debug.Log(string.Format("New: ({0})", accurateY));
+        float accurateY = -(cameraY/oldY*newY/specialY - newY/2.0f);
 
         return new Vector2(accurateX, accurateY);
-
+        
         /*orignalPoint.Y = -orignalPoint.Y;
         Vector2 originalVector = new Vector2(orignalPoint.X, orignalPoint.Y);
         Vector2 finalVector = new Vector2((30.0F / (float)1920), (25.0F / (float)1080));
