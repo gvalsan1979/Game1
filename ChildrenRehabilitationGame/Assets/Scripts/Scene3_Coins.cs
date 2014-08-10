@@ -20,11 +20,10 @@ namespace Assets.Scripts {
             if (Time.time >= m_disappearTime) {
                 Destroy(gameObject);
             }
-
-            //collected?
-            //Did I hit hand?
-            if ((transform.position - (Vector3)SimpleGame_HandTracking.HandUniversalPosition).magnitude <= 1f) {
+            if (Scene3_Shield.IsLockedToHand &&
+                Vector2.Distance(SimpleGame_HandTracking.HandUniversalPosition, gameObject.transform.position) <= 1f) {
                 Destroy(gameObject);
+                //points++ ?
             }
         }
     }

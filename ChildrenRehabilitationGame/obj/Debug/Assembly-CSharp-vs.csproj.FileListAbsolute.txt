@@ -9,3 +9,4 @@ C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\ICSharp
 C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-vs.csprojResolveAssemblyReference.cache
 C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp.dll
 C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp.pdb
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb

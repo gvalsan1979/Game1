@@ -65,6 +65,7 @@
      <Compile Include="Assets\Scripts\Scene3_Coins.cs" />
      <Compile Include="Assets\Scripts\Scene3_Enemy.cs" />
      <Compile Include="Assets\Scripts\Scene3_EnemySpawner.cs" />
+     <Compile Include="Assets\Scripts\Scene3_Shield.cs" />
      <Compile Include="Assets\Scripts\SimpleGame_HandTracking.cs" />
   </ItemGroup>
   <ItemGroup>

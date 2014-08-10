@@ -12,11 +12,11 @@
 
         public const float TIME_PER_PATH = 3.0f;
 
-        public const float ENEMIES_PER_SECOND = 1.0f;
+        public const float ENEMIES_PER_SECOND = 0.5f;
 
         public const float COIN_PER_SECOND = 0.3f;
 
-        public const float COIN_LIFETIME = 1.0f;
+        public const float COIN_LIFETIME = 2.0f;
 
         public const float AMPLITUDE_SPATH = 1.5f;
     }

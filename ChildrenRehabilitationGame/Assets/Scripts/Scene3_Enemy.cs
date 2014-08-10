@@ -13,15 +13,20 @@ namespace Assets.Scripts {
         private float m_startTime;
         private Vector2 m_startPosition;
         private Vector2 m_endPosition;
+        private Animator m_animator;
+        private float m_timeOfDeath;
 
-        private static IList<Scene3_IPath> m_paths = new List<Scene3_IPath> {
+        private static readonly IList<Scene3_IPath> m_paths = new List<Scene3_IPath> {
             new Scene3_SPath(),
             new Scene3_LinearPath()
         };
 
         // Use this for initialization
         void Start () {
-            Debug.Log(new { Msg = "Create new enemy!", Time = Time.time });
+            //Debug.Log(new { Msg = "Create new enemy!", Time = Time.time });
+
+            m_animator = GetComponent<Animator>();
+
             Path = m_paths.ElementAt(Random.Range(0, m_paths.Count()));
 
             m_startTime = Time.time;
@@ -49,23 +54,21 @@ namespace Assets.Scripts {
             transform.position = Path.GeneratePath(transform.position, m_startPosition, m_endPosition,
                 currentTime - m_startTime, EndTime - m_startTime);
 
+            if (Scene3_Shield.IsLockedToHand &&
+                Vector2.Distance(SimpleGame_HandTracking.HandUniversalPosition, gameObject.transform.position) <= 1f) {
+                m_animator.SetBool("StartBlowUp", true);
+                m_timeOfDeath = Time.time;
+            }
 
-            //Did I crash into the ground?
-            //if (transform.position.y <= Scene3_BeachConstants.BEACH_BORDER_Y) {
-            //    Debug.Log(new { Message = "Fail!!!" });
-            //    Destroy(gameObject);
-            //}
-
-            //Did I hit hand?
-            if ((transform.position - (Vector3)SimpleGame_HandTracking.HandUniversalPosition).magnitude <= 1f &&
-                SimpleGame_HandTracking.IsRightClosed) {
+            if (m_timeOfDeath != 0.0f && (Time.time - m_timeOfDeath) >= 0.15f) {
                 Destroy(gameObject);
             }
         }
 
         void OnTriggerEnter2D (Collider2D collider) {
-            if (collider.gameObject.tag == "LowerBorder") {
-                Destroy(gameObject);
+            if (collider.gameObject.tag == "LowerBorder" && m_timeOfDeath == 0.0f) {
+                m_animator.SetBool("StartBlowUp", true);
+                m_timeOfDeath = Time.time;
             }
         }
     }
