@@ -24,6 +24,8 @@ public class SimpleGame_HandTracking : MonoBehaviour {
     /// left hand position. 
     /// </summary>
     public Vector2 leftHandPosition;
+
+    public static bool IsRightClosed;
      
     /// <summary>
     /// number of bodys tracked by Kinect
@@ -73,13 +75,13 @@ public class SimpleGame_HandTracking : MonoBehaviour {
         {
             foreach (Body body in bodies)
             {
-                Debug.Log("ID:" + body.TrackingId);
+                //Debug.Log("ID:" + body.TrackingId);
 
                 if (body.IsTracked && body.TrackingId == _BodyManager.GetMainPlayerId())
                 {
                     if (body.HandRightState == HandState.Closed)
                     {
-
+                        IsRightClosed = true;
 
                         if (gameObject.renderer.material.color == Color.green)
                         {
@@ -93,6 +95,7 @@ public class SimpleGame_HandTracking : MonoBehaviour {
                     }
                     else
                     {
+                        IsRightClosed = false;
                         gameObject.renderer.material.color = Color.blue;
                     }
                 }
@@ -106,11 +109,12 @@ public class SimpleGame_HandTracking : MonoBehaviour {
         const float newX = 18.0f, newY = 10.0f;
         const float oldX = 1920.0f, oldY = 850.0f;
         const float specialY = 1.28f;
-
         float cameraX = orignalPoint.X, cameraY = orignalPoint.Y;
 
         float accurateX = cameraX/oldX*newX - newX/2.0f;
         float accurateY = -(cameraY/oldY*newY/specialY - newY/2.0f);
+
+        //Debug.Log(new { X = accurateX, Y = accurateY });
 
         return new Vector2(accurateX, accurateY);
         

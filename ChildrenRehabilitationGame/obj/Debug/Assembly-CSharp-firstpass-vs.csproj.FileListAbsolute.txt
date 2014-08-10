@@ -17,6 +17,6 @@ C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Mono.Ce
 C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\nunit.framework.dll
 C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Unity.DataContract.dll
 C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
-C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
 C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass.dll
 C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
