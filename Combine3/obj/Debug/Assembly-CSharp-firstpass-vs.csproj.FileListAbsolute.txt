@@ -1,0 +1,33 @@
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\UnityEditor.dll
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\UnityEngine.dll
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\nunit.framework.dll
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\demo\Documents\GitHub\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\UnityEditor.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\UnityEngine.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\nunit.framework.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\shine\Documents\Game1\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\Temp\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\Temp\bin\Debug\Assembly-CSharp-firstpass.pdb
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\Temp\bin\Debug\UnityEditor.dll
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\Temp\bin\Debug\UnityEngine.dll
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\Temp\bin\Debug\Mono.Cecil.dll
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\Temp\bin\Debug\nunit.framework.dll
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\Temp\bin\Debug\Unity.DataContract.dll
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\Temp\bin\Debug\ICSharpCode.NRefactory.dll
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass-vs.csprojResolveAssemblyReference.cache
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\demo\Documents\Shine - bombs - Copy\ChildrenRehabilitationGame\obj\Debug\Assembly-CSharp-firstpass.pdb
