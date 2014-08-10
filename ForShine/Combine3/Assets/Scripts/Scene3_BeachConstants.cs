@@ -8,6 +8,11 @@
 
         public const float SENDOFF_RIGHT_X = 13.0f;
 
+        public const float ARRIVE_LEFT_X = -6.5f;
+
+        public const float ARRIVE_RIGHT_X = 7.5f;
+
+
         public const float SENDOFF_Y = 7.0f;
 
         public const float TIME_PER_PATH = 3.0f;

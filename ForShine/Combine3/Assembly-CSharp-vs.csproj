@@ -56,8 +56,6 @@
      <Compile Include="Assets\Kinect\Scripts\InfraredSourceManager.cs" />
      <Compile Include="Assets\Kinect\Scripts\InfraredSourceView.cs" />
      <Compile Include="Assets\Kinect\Scripts\MultiSourceManager.cs" />
-     <Compile Include="Assets\Scripts\EmptyScene_Bugs.cs" />
-     <Compile Include="Assets\Scripts\Empty_Screen_Control.cs" />
      <Compile Include="Assets\Scripts\Game02_GM.cs" />
      <Compile Include="Assets\Scripts\Paths\Scene3_IPath.cs" />
      <Compile Include="Assets\Scripts\Paths\Scene3_LinearPath.cs" />

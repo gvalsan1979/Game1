@@ -39,7 +39,7 @@ namespace Assets.Scripts {
                 Random.Range(5.0f, Scene3_BeachConstants.SENDOFF_Y));
 
             m_endPosition = new Vector2(
-                Random.Range(-9.0f, 9.0f),
+                Random.Range(Scene3_BeachConstants.ARRIVE_LEFT_X, Scene3_BeachConstants.ARRIVE_RIGHT_X),
                 Random.Range(-5.0f, Scene3_BeachConstants.BEACH_BORDER_Y));
 
             //Debug.Log(new { Start = m_startPosition, End = m_endPosition, StartTime = m_startTime });
